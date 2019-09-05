@@ -1,14 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import { render } from "react-dom";
+import App from "./components/App";
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1 className="varmerd">Hello Rocketseat</h1>
-      </div>
-    );
-  }
-}
+import "./styles/app.scss";
 
 render(<App />, document.getElementById("app"));
